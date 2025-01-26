@@ -7,9 +7,9 @@
     "build": "bolt workspaces exec -- npm run build",
     "test": "bolt workspaces exec -- npm test"
   },
-  "workspaces": ["packages/*"], // Assuming your project uses this structure
+  "workspaces": ["packages/*"], //
   "dependencies": {
-    "bolt": "^0.25.0" // Ensure Bolt is properly installed
+    "bolt": "^0.25.0" //
   },
   "devDependencies": {
     "netlify-cli": "^15.0.0"
