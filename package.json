@@ -7,7 +7,7 @@
     "build": "bolt workspaces exec -- npm run build",
     "test": "bolt workspaces exec -- npm test"
   },
-  "workspaces": ["packages/*"], //
+  "workspaces": ["packages/*"],
   "dependencies": {
     "bolt": "^0.25.0"
   },
