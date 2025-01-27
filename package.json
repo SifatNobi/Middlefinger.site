@@ -9,7 +9,7 @@
   },
   "workspaces": ["packages/*"],
   "dependencies": {
-    "bolt": "^0.25.0"
+    "bolt": "^0.24.0"
   },
   "devDependencies": {
     "netlify-cli": "^15.0.0"
