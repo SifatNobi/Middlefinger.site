@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "A Bolt-based project deployed on Netlify",
   "scripts": {
+  "build": "mkdir -p dist && npm run build"
+}
     "start": "bolt workspaces exec -- npm start",
     "build": "bolt workspaces exec -- npm run build",
     "test": "bolt workspaces exec -- npm test"
